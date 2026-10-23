@@ -1,14 +1,14 @@
 :root {
   color-scheme: dark;
-  --ink: #fff3b8;          /* text: light yellow */
+  --ink: #fff0f7;          /* text: soft pink-white */
   --paper: #0b0509;        /* page: black with a warm pink cast */
   --card: #150a10;
   --line: #3b1729;
-  --muted: #cbb894;
+  --muted: #c9a3b6;
   --tab-bg: #23111b;
   --tint: #2f1121;
   --accent: #ff3d9a;       /* hot pink */
-  --accent-2: #ffe27a;     /* light yellow for glows, dots and highlights */
+  --accent-2: #ff8cc6;     /* light pink for glows, dots and highlights */
   --on-ink: #1a0610;       /* dark text on top of the pink */
   --error: #ff8a80;
   --ease: cubic-bezier(.22, 1, .36, 1);
@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   background:
     radial-gradient(900px 440px at 50% -120px, rgba(255, 61, 154, .24), transparent 70%) no-repeat,
-    radial-gradient(520px 320px at 100% 0, rgba(255, 226, 122, .08), transparent 70%) no-repeat,
     var(--paper);
   color: var(--ink);
   font-family: "Bricolage Grotesque", system-ui, -apple-system, "Segoe UI", sans-serif;
